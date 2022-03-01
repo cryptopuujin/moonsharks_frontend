@@ -26,18 +26,35 @@ export default function Index() {
           />
         </div>
         <div className="font-bebasneue z-30 absolute left-1/2 text-white text-6xl -translate-x-1/2 top-1/3">
-          Moonsharks nft is coming soon
+          MOONSHARKS NFT COMING SOON!
         </div>
-        <div className="absolute bottom-[50px] left-0 flex items-center justify-center w-full gap-4 z-30">
-          <a href="" target="_blank">
-            <BsTwitter className="h-6 w-6 text-white" />
-          </a>
-          <a href="" target="_blank">
-            <BsInstagram className="h-6 w-6 text-white" />
-          </a>
-          <a href="" target="_blank">
-            <BsDiscord className="h-6 w-6 text-white" />
-          </a>
+        <div className="absolute bottom-[50px] left-0 w-full z-30">
+          <div className="text-white font-bebasneue w-full text-center mb-5">
+            FOLLOW US ON SOCIAL MEDIA
+          </div>
+          <div className="flex gap-4 w-full justify-center items-center">
+            <a
+              href="https://twitter.com/MoonSharksNFT"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <BsTwitter className="h-6 w-6 text-white" />
+            </a>
+            <a
+              href="https://www.instagram.com/moonsharks.io/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <BsInstagram className="h-6 w-6 text-white" />
+            </a>
+            <a
+              href="https://discord.gg/k4g5Gqger4"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <BsDiscord className="h-6 w-6 text-white" />
+            </a>
+          </div>
         </div>
       </div>
     </>
